@@ -1,0 +1,71 @@
+body{
+    font-size: 12px;
+}
+
+.mainTitle{
+    font-size: 60px;
+}
+
+,mainSubtitle{
+    font-size: 24px;
+}
+
+.quote1{
+    font-size: 24px;
+}
+
+.quote2{
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+
+.quote3{
+    font-size: 36px;
+}
+
+.title1{
+    font-size: 36px;
+}
+
+.title2{
+    font-size: 48px;
+}
+
+.subtitle1{
+    font-size: 18px;
+}
+
+.subtitle2{
+    font-size: 24px;
+}
+
+.text1{
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.text2{
+    font-size: 14px;
+}
+
+.text3{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.text4{
+    font-size: 18px;
+}
+
+.text5{
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.text6{
+    font-size: 24px;
+}
+
+button, .ex-but{
+    font-size: 36px;
+}
