@@ -1,0 +1,76 @@
+.container{
+    margin: auto;
+}
+
+/*Banner*/
+
+#bannerQuote{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#logo{
+    position: relative;
+    left: 10%;
+    top: 60%;
+    transform: translate(0, -50%);
+}
+
+#banner1-2{
+    text-align: center;
+}
+
+#banner2-1 h3{
+    position: relative;
+    top: 80%;
+}
+
+/*NavBar*/
+
+#navList{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+    #navList li{
+        text-align: center;
+    }
+
+/*About Me*/
+
+#about .container{
+    text-align: center;
+}
+
+    #aboutInfo{
+        text-align: initial;
+    }
+
+/*Contact*/
+
+#contact .container{
+    text-align: center;
+}
+
+    #callButton section{
+        text-align: initial;
+    }
+
+/*Quote*/
+
+#quoteText{
+    text-align: right;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+}
+
+    #footList li{
+        text-align: center;
+    }
