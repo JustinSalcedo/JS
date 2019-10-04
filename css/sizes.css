@@ -1,0 +1,137 @@
+:root{
+    --a-rate: 61.8%;
+    --b-rate: 38.2%;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    max-width: 900px;
+}
+
+/*Banner*/
+
+#banner{
+    height: 350px;
+    display: flex;
+}
+
+    #banner1{
+        width: var(--a-rate);
+    }
+
+        #banner1-1{
+            height: var(--a-rate);
+        }
+
+        #banner1-2{
+            height: var(--b-rate);
+        }
+
+    #banner2{
+        width: var(--b-rate);
+    }
+
+        #banner2-1{
+            height: var(--b-rate);
+        }
+
+        #banner2-2{
+            height: var(--a-rate);
+        }
+
+/*NavBar*/
+
+nav{
+    height: 50px;
+}
+
+    #navList{
+        display: flex;
+    }
+
+    li{
+        width: 100%;
+    }
+
+/*Portfolio*/
+
+#portfolioHead{
+    height: 250px;
+}
+
+    #portfolioImg{
+        width: 69.4%;
+    }
+
+.portfolioPicture{
+    width: var(--b-rate);
+}
+
+.portfolioText{
+    width: var(--a-rate);
+}
+
+/*Services*/
+
+#services .container{
+    display: flex;
+}
+
+#serviceBullets{
+    width: var(--a-rate);
+}
+
+#processInfo{
+    width: var(--b-rate);
+}
+
+    #infographic{
+        height: 75%;
+    }
+
+/*About Me*/
+
+#aboutPicture{
+    width: 30%;
+}
+
+#aboutText{
+    width: 60%;
+}
+
+/*Contact*/
+
+#contact .container{
+    display: flex;
+}
+
+#call{
+    width: 50%;
+}
+
+    #callButton{
+        height: var(--a-rate);
+    }
+
+    #network{
+        height: var(--b-rate);
+    }
+
+#form{
+    width: 50%;
+}
+
+/*Footer*/
+
+footer{
+    height: 100px;
+}
+
+    #footList{
+        height: 40px;
+        display: flex;
+    }
