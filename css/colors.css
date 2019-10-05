@@ -1,0 +1,84 @@
+:root{
+    --black: #24292E;
+    --gray: #707070;
+    --green: #33CD56;
+    --purple: #7057FF;
+    --white-back: #FEFEFE;
+    --white-text: #FAFCFE;
+    --red: #E11D21;
+    --pink: #C779F2;
+    --cyan: #2BE2D6;
+    --yellow: #FBCA04;
+    --blue: #0366D6;
+    --silver: #DCDCDC;
+}
+
+body{
+    background-color: var(--white-back);
+}
+
+/*Banner*/
+
+#banner{
+    color: var(--white-text);
+    background-color: var(--black);
+}
+
+    #banner1-2 button{
+        background-color: var(--purple);
+    }
+
+    #banner2-2 button{
+        background-color: var(--green);
+    }
+
+/*NavBar*/
+
+nav{
+    color: var(--white-text);
+    background-color: var(--black);
+}
+
+/*Services*/
+
+#planning .circle, #planning .rectangle, #planning section{
+    background-color: var(--red);
+}
+
+#design .circle, #design .rectangle, #design section{
+    background-color: var(--pink);
+}
+
+#development .circle, #development .rectangle, #development section{
+    background-color: var(--cyan);
+}
+
+#support .circle, #support .rectangle, #support section{
+    background-color: var(--yellow);
+}
+
+/*Contact*/
+
+#contact{
+    background-color: var(--black);
+    color: var(--white-text);
+}
+
+    #callButton button{
+        background-color: var(--green);
+    }
+
+    #form input[type="submit"]{
+        background-color: var(--blue);
+    }
+
+/*Footer*/
+
+footer{
+    background-color: var(--black);
+    color: var(--white-text);
+}
+
+    footer section{
+        color: var(--silver);
+    }

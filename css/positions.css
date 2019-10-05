@@ -124,6 +124,10 @@ footer{
     text-align: center;
 }
 
-    #footList li{
-        text-align: center;
+    #footList{
+        margin: 0%;
     }
+
+        #footList li{
+            text-align: center;
+        }
