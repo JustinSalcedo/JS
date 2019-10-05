@@ -16,7 +16,6 @@ body{
 
 .quote2{
     font-size: 24px;
-    letter-spacing: 10px;
 }
 
 .quote3{
@@ -46,11 +45,12 @@ body{
 
 .text2{
     font-size: 14px;
+    line-height: 18px;
 }
 
 .text3{
     font-size: 14px;
-    line-height: 18px;
+    line-height: 21px;
 }
 
 .text4{
@@ -59,7 +59,7 @@ body{
 
 .text5{
     font-size: 18px;
-    line-height: 23px;
+    line-height: 27px;
 }
 
 .text6{

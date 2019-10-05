@@ -1,0 +1,42 @@
+/*Default*/
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Fonts*/
+
+.mainSubtitle{
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.quote2{
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+.code{
+    font-family: 'PT Mono','Consolas', monospace;
+    font-weight: bold;
+}
+
+.brand{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title1, .title2{
+    font-weight: bold;
+}
+
+.subtitle1, .subtitle2{
+    font-weight: bold;
+    font-style: italic;
+}
