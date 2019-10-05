@@ -4,30 +4,62 @@
 
 /*Banner*/
 
-#bannerQuote{
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%, 0);
+#banner{
+    ;
 }
 
-#logo{
-    position: relative;
-    left: 10%;
-    top: 60%;
-    transform: translate(0, -50%);
-}
+    #bannerQuote{
+        position: absolute;
+        top: 290px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
 
-#banner1-2{
-    text-align: center;
-}
+    #banner1{
+        ;
+    }
 
-#banner2-1 h3{
-    position: relative;
-    top: 80%;
-}
+        #banner1-1{
+            margin-top: -44px;
+        }    
+        
+            #logo{
+                position: relative;
+                left: 10%;
+                top: 60%;
+                transform: translate(0, -50%);
+            }
+
+                #logo h2{
+                    margin-top: -20px;
+                }
+
+        #banner1-2{
+            text-align: center;
+        }
+
+    #banner2{
+        ;
+    }
+
+        #banner2-1{
+            margin-top: -44px;
+        }
+    
+            #banner2-1 h3{
+                position: relative;
+                top: 80%;
+            }
+
+        #banner2-2{
+            margin-top: 20px;
+        }
 
 /*NavBar*/
+
+nav{
+    margin-top: -36px;
+}
 
 #navList{
     position: relative;
@@ -38,6 +70,27 @@
     #navList li{
         text-align: center;
     }
+
+/*Services*/
+
+#serviceBullets{
+    text-align: center;
+}
+
+    #serviceBullets p.ex-quo{
+        margin-top: -15px;
+    }
+
+    #serviceBullets section{
+        text-align: initial;
+    }
+
+#infographic{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 10px;
+}
 
 /*About Me*/
 

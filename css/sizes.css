@@ -25,10 +25,12 @@ body{
 
         #banner1-1{
             height: var(--a-rate);
+            box-sizing: border-box;
         }
 
         #banner1-2{
             height: var(--b-rate);
+            box-sizing: border-box;
         }
 
     #banner2{
@@ -37,10 +39,12 @@ body{
 
         #banner2-1{
             height: var(--b-rate);
+            box-sizing: border-box;
         }
 
         #banner2-2{
             height: var(--a-rate);
+            box-sizing: border-box;
         }
 
 /*NavBar*/
