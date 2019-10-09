@@ -73,6 +73,7 @@ nav{
 
 .portfolioPicture{
     width: var(--b-rate);
+    padding: 0px 20px;
 }
 
 .portfolioText{
@@ -101,6 +102,7 @@ nav{
 
 #aboutPicture{
     width: 30%;
+    padding: 0px 20px;
 }
 
 #aboutText{
@@ -118,12 +120,21 @@ nav{
 }
 
     #callButton{
-        height: var(--a-rate);
+        /*height: var(--a-rate);*/
     }
 
     #network{
         height: var(--b-rate);
     }
+
+        #networkIcons{
+            display: flex;
+        }
+
+            #networkIcons picture{
+                max-width: 45px;
+                margin: 0 auto;
+            }
 
 #form{
     width: 50%;

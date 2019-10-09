@@ -1,0 +1,7 @@
+Main Title: custom logo
+Main Subtitle: Roboto, Segoe UI, Open Sans, sans-serif
+Quote: Crimson Text, 'Palatino Linotype', Palatino, serif
+Title: PT Sans, -Calibri, sans-serif
+Subtitle: Open Sans, -Calibri, sans-serif
+Text: Trebuchet, Helvetica, sans-serif
+Button: [text]

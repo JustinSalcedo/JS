@@ -20,7 +20,7 @@
     }
 
         #banner1-1{
-            margin-top: -44px;
+            margin-top: -10px;
         }    
         
             #logo{
@@ -30,8 +30,12 @@
                 transform: translate(0, -50%);
             }
 
+                #logo picture{
+                    margin-left: -45px;
+                }
+            
                 #logo h2{
-                    margin-top: -20px;
+                    margin-top: -10px;
                 }
 
         #banner1-2{
@@ -71,6 +75,21 @@ nav{
         text-align: center;
     }
 
+/*Portfolio*/
+
+#portfolioHead{
+    text-align: center;
+}
+
+.portfolioExample{
+    display: flex;
+    align-items: center;
+}
+
+    .portfolioPicture{
+        ;
+    }
+
 /*Services*/
 
 #serviceBullets{
@@ -100,6 +119,7 @@ nav{
 
     #aboutInfo{
         text-align: initial;
+        display: flex;
     }
 
 /*Contact*/

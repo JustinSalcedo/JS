@@ -25,11 +25,17 @@ body{
 }
 
     #banner1-2 button{
-        background-color: var(--purple);
+        color: var(--purple);
+        border: 3px solid var(--purple);
+        background: none;
+        padding: 10px;
     }
 
     #banner2-2 button{
-        background-color: var(--green);
+        color: var(--green);
+        border: 3px solid var(--green);
+        background: none;
+        padding: 10px;
     }
 
 /*NavBar*/
@@ -65,11 +71,17 @@ nav{
 }
 
     #callButton button{
-        background-color: var(--green);
+        color: var(--green);
+        border: 3px solid var(--green);
+        background: none;
+        padding: 10px;
     }
 
     #form input[type="submit"]{
-        background-color: var(--blue);
+        color: var(--blue);
+        border: 1px solid var(--blue);
+        background: none;
+        padding: 5px;
     }
 
 /*Footer*/
