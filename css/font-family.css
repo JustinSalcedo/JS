@@ -18,7 +18,7 @@ h4{
     font-family: 'Open Sans', Calibri, sans-serif;
 }
 
-p, button{
+p, button, #form input::placeholder, #form textarea::placeholder{
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 

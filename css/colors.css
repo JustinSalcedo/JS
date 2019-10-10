@@ -6,10 +6,15 @@
     --white-back: #FEFEFE;
     --white-text: #FAFCFE;
     --red: #E11D21;
+    --d-red: rgb(134, 18, 20);
     --pink: #C779F2;
+    --d-pink: rgb(132, 81, 160);
     --cyan: #2BE2D6;
+    --d-cyan: rgb(28, 146, 138);
     --yellow: #FBCA04;
-    --blue: #0366D6;
+    --d-yellow: rgb(151, 126, 27);
+    --light-blue: #b5d7ff;
+    --dark-blue: #0366D6;
     --silver: #DCDCDC;
 }
 
@@ -47,20 +52,24 @@ nav{
 
 /*Services*/
 
+#infographic{
+    color: var(--white-text);
+}
+
 #planning .circle, #planning .rectangle, #planning section{
-    background-color: var(--red);
+    background-color: var(--d-red);
 }
 
 #design .circle, #design .rectangle, #design section{
-    background-color: var(--pink);
+    background-color: var(--d-pink);
 }
 
 #development .circle, #development .rectangle, #development section{
-    background-color: var(--cyan);
+    background-color: var(--d-cyan);
 }
 
 #support .circle, #support .rectangle, #support section{
-    background-color: var(--yellow);
+    background-color: var(--d-yellow);
 }
 
 /*Contact*/
@@ -78,10 +87,14 @@ nav{
     }
 
     #form input[type="submit"]{
-        color: var(--blue);
-        border: 1px solid var(--blue);
+        color: var(--light-blue);
+        border: 3px solid var(--light-blue);
         background: none;
-        padding: 5px;
+        padding: 7px;
+    }
+
+    #form input::placeholder, #form textarea::placeholder{
+        color: var(--gray);
     }
 
 /*Footer*/

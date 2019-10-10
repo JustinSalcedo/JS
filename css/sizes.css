@@ -8,6 +8,18 @@ body{
     margin: 0%;
 }
 
+.break1{
+    height: 10px;
+}
+
+.break2{
+    height: 20px;
+}
+
+.break5{
+    height: 50px;
+}
+
 .container{
     max-width: 900px;
 }
@@ -72,7 +84,7 @@ nav{
     }
 
 .portfolioPicture{
-    width: var(--b-rate);
+    max-width: var(--b-rate);
     padding: 0px 20px;
 }
 
@@ -95,7 +107,7 @@ nav{
 }
 
     #infographic{
-        height: 75%;
+        /*height: 75%;*/
     }
 
 /*About Me*/
@@ -139,6 +151,19 @@ nav{
 #form{
     width: 50%;
 }
+
+    #form form{
+        padding: 0 40px;
+    }
+
+        #form input, #form textarea{
+            width: 100%;
+            padding: 5px;
+        }
+
+        #form input[type="submit"]{
+            width: 50%;
+        }
 
 /*Quote*/
 

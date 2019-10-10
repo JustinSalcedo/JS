@@ -19,6 +19,7 @@
 
 .portfolioPicture img{
     width: 100%;
+    box-shadow: 5px 5px 8px gray;
 }
 
 /*AboutMe*/

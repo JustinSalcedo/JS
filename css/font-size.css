@@ -53,7 +53,7 @@ body{
     line-height: 21px;
 }
 
-.text4{
+.text4, #form input::placeholder, #form textarea::placeholder{
     font-size: 18px;
 }
 
@@ -68,4 +68,8 @@ body{
 
 button, .ex-but{
     font-size: 36px;
+}
+
+#form input[type="submit"]{
+    font-size: 24px;
 }

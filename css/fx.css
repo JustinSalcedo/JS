@@ -1,0 +1,111 @@
+:root{
+    --light-purple: #e58eff;
+    --light-green: #bffa76;
+    --light-orange: #ffd589;
+    --light-blue: #b5d7ff;
+    --dark-purple: #4330af;
+    --dark-green: #06761f;
+    --dark-orange: #9d6603;
+    --dark-blue: #0366D6;
+}
+
+/*Banner*/
+
+#banner1-2 button:hover{
+    color: var(--light-purple);
+    border: 3px solid var(--light-purple);
+    box-shadow: 2px 2px 3px 1px var(--light-purple), -2px -2px 3px 1px var(--light-purple);
+    cursor: pointer;
+}
+
+#banner1-2 button:focus{
+    color: var(--dark-purple);
+    border: 3px solid var(--dark-purple);
+    box-shadow: 2px 2px 3px 1px var(--dark-purple) inset, -2px -2px 3px 1px var(--dark-purple) inset;
+}
+
+#banner2-2 button:hover, #callButton button:hover{
+    color: var(--light-green);
+    border: 3px solid var(--light-green);
+    box-shadow: 2px 2px 3px 1px var(--light-green), -2px -2px 3px 1px var(--light-green);
+    cursor: pointer;
+}
+
+#banner2-2 button:focus, #callButton button:focus{
+    color: var(--dark-green);
+    border: 3px solid var(--dark-green);
+    box-shadow: 2px 2px 3px 1px var(--dark-green) inset, -2px -2px 3px 1px var(--dark-green) inset;
+}
+
+/*NavBar*/
+
+#navList li:hover{
+    color: var(--light-orange);
+}
+
+#navList li:focus{
+    color: var(--dark-orange);
+}
+
+/*Contact*/
+
+#form input[type="submit"]:hover{
+    box-shadow: 2px 2px 3px 1px var(--light-blue), -2px -2px 3px 1px var(--light-blue);
+    cursor: pointer;
+}
+
+#form input[type="submit"]:focus{
+    color: var(--dark-blue);
+    border: 3px solid var(--dark-blue);
+    box-shadow: 2px 2px 3px 1px var(--dark-blue) inset, -2px -2px 3px 1px var(--dark-blue) inset;
+}
+
+/*Services*/
+
+#infographic{
+    align-items: center;
+}
+
+.artifact{
+    display: flex;
+    align-items: center;
+}
+
+    .artifact h4{
+        margin: 0%;
+    }
+
+.circle{
+    margin: 0%;
+    padding: 0%;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.rectangle{
+    margin: 0%;
+    text-align: right;
+    padding: 5px 10px;
+    border-radius: 15px;
+    padding-left: 55px;
+    margin-left: -50px;
+}
+
+#infographic section{
+    padding: 5px;
+}
+
+    #infographic p{
+        margin: 0%;
+    }
+
+/*Footer*/
+
+#footList a:hover{
+    color: var(--light-blue);
+}
+
+#footList a:focus{
+    color: var(--dark-blue);
+}

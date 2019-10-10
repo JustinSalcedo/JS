@@ -40,3 +40,13 @@ a{
     font-weight: bold;
     font-style: italic;
 }
+
+#form input[type="submit"]{
+    font-weight: bold;
+}
+
+/*Lists*/
+
+.portfolioText li, #serviceBullets li, #aboutText li{
+    list-style: square;
+}
