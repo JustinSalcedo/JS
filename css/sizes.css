@@ -16,6 +16,11 @@ body{
     height: 20px;
 }
 
+.break3{
+    height: 80px;
+    display: none;
+}
+
 .break5{
     height: 50px;
 }
@@ -144,8 +149,11 @@ nav{
         }
 
             #networkIcons picture{
-                max-width: 45px;
                 margin: 0 auto;
+            }
+
+            #networkIcons img{
+                max-width: 75px;
             }
 
 #form{

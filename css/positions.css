@@ -15,6 +15,10 @@
         transform: translate(-50%, 0);
     }
 
+    #bannerQuote2{
+        display: none;
+    }
+
     #banner1{
         ;
     }
@@ -88,6 +92,14 @@ nav{
 
     .portfolioPicture{
         ;
+    }
+
+    .right{
+        text-align: right;
+    }
+
+    .portfolioText.right ul{
+        margin-left: 50%;
     }
 
 /*Services*/

@@ -1,0 +1,199 @@
+@media (max-width: 500px){
+    
+    /*Banner*/
+    
+    #logo picture{
+        margin-left: -70px;
+    }
+    
+    .logoImage{
+        max-height: 130px;
+    }
+
+    /*Services*/
+
+    #services .container{
+        display: block;
+    }
+
+        #serviceBullets{
+            width: auto;
+            padding: 0px 25px;
+        }
+
+        #processInfo{
+            width: auto;
+            padding: 25px;
+            background-color: var(--black);
+        }
+
+        #infographic{
+            transform: translate(0, 0);
+        }
+
+    /*About*/
+
+    #aboutText ul{
+        padding: 0;
+    }
+    
+    /*Contact*/
+
+    #networkIcons img{
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 450px){
+    #banner{
+        display: block;
+        height: auto;
+    }
+
+        #banner1, #banner2{
+            width: auto;
+            display: flex;
+        }
+
+            #banner1-1, #banner1-2, #banner2-1, #banner2-2{
+                height: auto;
+                margin: 0%;
+            }
+
+            #bannerQuote{
+                display: none;
+            }
+
+            #bannerQuote2{
+                display: block;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+
+            /*Banner1*/
+            
+            #logo{
+                position: initial;
+                left: 0%;
+                top: 0%;
+                transform: initial;
+                padding: 20px 0%;
+            }
+
+                #logo h2{
+                    max-width: none;
+                    margin: 0%;
+                }
+
+                #logo picture{
+                    margin: auto;
+                }
+
+            #banner1-2{
+                margin: auto;
+                margin-right: 20px;
+            }
+
+            /*Banner2*/
+
+            #banner2{
+                text-align: center;
+            }
+
+                #banner2-1 h3{
+                    position: initial;
+                    top: 0%;
+                }
+    
+    /*Contact*/
+
+    #form form{
+        padding: 0 25px;
+    }
+
+    #form input, #form textarea{
+        width: 90%;
+    }
+
+    #form input::placeholder, #form textarea::placeholder{
+        font-size: 12px;
+    }
+
+    /*Footer*/
+
+    #footList{
+        padding: 0;
+    }
+
+    #footList li{
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media (max-width:400px){
+    
+    /*Banner*/
+
+    #banner1-1, #banner2-2{
+        width: 100%;
+    }
+    
+    #logo {
+        padding: 20px 10px;
+    }
+
+    #banner1-2{
+        display: none;
+    }
+
+    #banner2-1{
+        display: none;
+    }
+
+    /*NavBar*/
+
+    nav ul{
+        padding: 0%;
+    }
+
+    nav li{
+        align-items: center;
+    }
+
+        nav a{
+            font-size: 18px;
+            line-height: 36px;
+        }
+
+    /*Contact*/
+
+    #callButton section{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:350px){
+    
+    /*Banner*/
+
+    #banner2-2{
+        padding: 0 10px;
+    }
+
+    /*Contact*/
+
+    #callButton section{
+        font-size: 14px;
+    }
+
+    #form input[type="submit"]{
+        font-size: 18px;
+    }
+
+    /*Footer*/
+
+    #footList{
+        padding: 0 35px 0 15px;
+    }
+}

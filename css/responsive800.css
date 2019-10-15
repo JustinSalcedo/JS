@@ -1,0 +1,161 @@
+@media (max-width: 800px){
+    
+    /*Banner*/
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo picture{
+        margin-left: -115px;
+    }
+
+    .logoImage{
+        max-width: 85%;
+    }
+
+    #logo h2{
+        max-width: 80%;
+    }
+
+    h2, .text4{
+        font-size: 14px;
+    }
+
+    .title1, button, .ex-but{
+        font-size: 24px;
+    }
+
+    .quote3{
+        font-size: 30px;
+    }
+
+    #bannerQuote{
+        width: fit-content;
+    }
+
+    /*NavBar: .ex-but/*
+
+    /*Services*/
+
+    .text5{
+        font-size: 14px;
+    }
+
+    #serviceBullets section{
+        padding-left: 10px;
+    }
+
+    /*About*/
+
+    .title2{
+        font-size: 36px;
+    }
+
+    /*Contact*/
+
+    #contact .container, #quote .container{
+        padding: 0% 15px;
+    }
+
+    .text6{
+        font-size: 18px;
+    }
+
+    #form textarea{
+        max-height: 100px;
+    }
+
+    #networkIcons{
+        display: block;
+    }
+}
+
+@media (max-width: 700px){
+    #portfolioHead+.break5{
+        display: none;
+    }
+}
+
+@media (max-width: 650px){
+    
+    /*Portfolio*/
+
+    #portfolioHead{
+        height: auto;
+    }
+
+    #portfolioImg{
+        width: 90%;
+        margin-left: -10px;
+    }
+    
+    .portfolioExample{
+        display: block;
+        text-align: center;
+    }
+
+        .portfolioPicture{
+            max-width: 90%;
+        }
+
+            .portfolioPicture img{
+                width: 80%;
+            }
+
+        .portfolioText{
+            margin: 0% 25px;
+            width: 90%;
+        }
+
+            .portfolioText section{
+                text-align: left;
+            }
+
+            .right{
+                text-align: inherit;
+            }
+
+            .portfolioText.right ul{
+                margin: 0%;
+            }
+
+    #portfolio .break3{
+        display: block;
+    }
+
+    #portfolio .break2{
+        height: 10px;
+    }
+
+
+}
+
+@media (max-width: 600px){
+    #form input[type="submit"]{
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px){
+    #about .container{
+        padding: 0% 25px;
+    }
+    
+    #aboutInfo{
+        display: block;
+        text-align: center;
+    }
+
+    #aboutPicture img{
+        width: 80%;
+    }
+
+    #aboutText{
+        width: 100%;
+    }
+
+        #aboutText li{
+            list-style: none;
+        }
+}
