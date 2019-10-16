@@ -1,0 +1,23 @@
+main .container{
+    text-align: center;
+}
+
+#portfolioHead{
+    height: auto;
+}
+
+#portfolioImg{
+    width: 50%;
+}
+
+main h3{
+    margin: 0;
+}
+
+@media (max-width: 500px){
+    #banner2{
+        display: none;
+    }
+
+    
+}

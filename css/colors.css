@@ -50,6 +50,12 @@ nav{
     background-color: var(--black);
 }
 
+/*Portfolio*/
+
+.portfolioText a{
+    color: var(--d-red);
+}
+
 /*Services*/
 
 #infographic{
