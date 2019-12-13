@@ -47,6 +47,6 @@ a{
 
 /*Lists*/
 
-.portfolioText li, #serviceBullets li, #aboutText li{
+.portfolioText li, #serviceBullets li, #aboutText li, #policy li, #terms li{
     list-style: square;
 }

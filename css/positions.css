@@ -163,3 +163,22 @@ footer{
         #footList li{
             text-align: center;
         }
+
+/*Policy and Terms*/
+
+#policy, #terms{
+    text-align: left;
+}
+
+    #policy h3, #terms h3{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    #policy p, #terms h3{
+        margin-bottom: 20px;
+    }
+
+    #termsTitle{
+        text-align: center;
+    }

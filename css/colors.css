@@ -113,3 +113,9 @@ footer{
     footer section{
         color: var(--silver);
     }
+
+/*Policy and Terms*/
+
+#policy a, #terms a{
+    color: var(--d-red);
+}
